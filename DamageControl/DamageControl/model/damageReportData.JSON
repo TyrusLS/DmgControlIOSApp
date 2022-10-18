@@ -1,0 +1,27 @@
+[{  //dieses Json Objekt wird erstellt sobald ein sturzschaden registriert wird und abgesendet wird
+    "sturz": {
+        //user daten werden am anfang eingetragen
+        "user": ["Vorname", "Nachname", "Rufnaame", "Organisation", "KFZ-Zeichen", "anlege Datum"],
+        //ausgewählte höhe
+        "hight": "0.5m<",
+        "equipment": [
+            {
+                //beispiel equipment ist array also können mehrere eingefügt werden
+            "id": "0123456789-j",
+            "equipname": "C3-Display-18600653"
+            }
+        ],
+        //details welche am ende eingetragen werden
+        "details": "Details über die Struzschäden"
+    }
+    //dieses Json Objek wird erstellt sobald ein Sonstiger schaden registriert wird und abgesendet wird
+    "sonstige": {
+        //user daten werden am anfang eingetragen
+        "user": ["Vorname", "Nachname", "Rufnaame", "Organisation", "KFZ-Zeichen", "anlege Datum"],
+        //hier werden die geschädigten funktionen eingetragen array kann also mehrere geschädigte funktionen aufnehemen
+        "function": ["geschädigte function 1","geschädigte function 2"]
+        //details welche am ende eingetragen werden
+        "details": " Details über die Sonstigen schäden"
+    }
+}
+]

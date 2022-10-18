@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EquipmentData" representedClassName="EquipmentData" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <relationship name="sonstigerschaden" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sonstigerschaden" inverseName="equipmentData" inverseEntity="Sonstigerschaden"/>
+        <relationship name="sturzschaden" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sturzschaden" inverseName="equipmentdata" inverseEntity="Sturzschaden"/>
+        <relationship name="userdata" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserData" inverseName="equipmentdata" inverseEntity="UserData"/>
+    </entity>
+    <entity name="SonstigeFunktion" representedClassName="SonstigeFunktion" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="sonstigeFunktion" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sonstigerschaden" inverseName="sonstigeFunktion" inverseEntity="Sonstigerschaden"/>
+    </entity>
+    <entity name="Sonstigerschaden" representedClassName="Sonstigerschaden" syncable="YES">
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="details" optional="YES" attributeType="String"/>
+        <relationship name="equipmentData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EquipmentData" inverseName="sonstigerschaden" inverseEntity="EquipmentData"/>
+        <relationship name="sonstigeFunktion" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SonstigeFunktion" inverseName="sonstigeFunktion" inverseEntity="SonstigeFunktion"/>
+    </entity>
+    <entity name="SturzDevice" representedClassName="SturzDevice" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="sturzDeviceRel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sturzschaden" inverseName="sturzDevice" inverseEntity="Sturzschaden"/>
+    </entity>
+    <entity name="Sturzschaden" representedClassName="Sturzschaden" syncable="YES">
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="details" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="String"/>
+        <relationship name="equipmentdata" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EquipmentData" inverseName="sturzschaden" inverseEntity="EquipmentData"/>
+        <relationship name="sturzDevice" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SturzDevice" inverseName="sturzDeviceRel" inverseEntity="SturzDevice"/>
+    </entity>
+    <entity name="UserData" representedClassName="UserData" syncable="YES">
+        <attribute name="kennzeichen" optional="YES" attributeType="String"/>
+        <attribute name="nachname" optional="YES" attributeType="String"/>
+        <attribute name="organisation" optional="YES" attributeType="String"/>
+        <attribute name="rufname" optional="YES" attributeType="String"/>
+        <attribute name="vorname" optional="YES" attributeType="String"/>
+        <relationship name="equipmentdata" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EquipmentData" inverseName="userdata" inverseEntity="EquipmentData"/>
+    </entity>
+    <elements>
+        <element name="EquipmentData" positionX="-212.300048828125" positionY="116.9620361328125" width="128" height="89"/>
+        <element name="Sonstigerschaden" positionX="-49.299072265625" positionY="-146.7897338867188" width="128" height="103"/>
+        <element name="Sturzschaden" positionX="96.804931640625" positionY="-56.245361328125" width="128" height="118"/>
+        <element name="UserData" positionX="-506.8201293945312" positionY="-14.23175048828125" width="128" height="119"/>
+        <element name="SonstigeFunktion" positionX="-299.4161376953125" positionY="-275.0533142089844" width="128" height="73"/>
+        <element name="SturzDevice" positionX="257.9095458984375" positionY="-240.8857421875" width="128" height="73"/>
+    </elements>
+</model>

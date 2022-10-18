@@ -1,0 +1,147 @@
+
+/* Class = "UINavigationItem"; title = "\"Equipment\" QR-Code"; ObjectID = "0wb-8z-PP7"; */
+"0wb-8z-PP7.title" = "\"Equipment\" QR-Code";
+
+/* Class = "UIBarButtonItem"; title = "Speichern"; ObjectID = "11v-GL-FsD"; */
+"11v-GL-FsD.title" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "Zurück"; ObjectID = "1hf-fC-3qh"; */
+"1hf-fC-3qh.title" = "Back";
+
+/* Class = "UIBarButtonItem"; title = "Abmelden"; ObjectID = "24e-XF-gON"; */
+"24e-XF-gON.title" = "Logout";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Mq-5u-Ydb"; */
+"4Mq-5u-Ydb.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Weiter"; ObjectID = "5av-oK-Is9"; */
+"5av-oK-Is9.title" = "Go";
+
+/* Class = "UINavigationItem"; title = "Dateneingabe"; ObjectID = "7DZ-Yx-R8D"; */
+"7DZ-Yx-R8D.title" = "Datainput";
+
+/* Class = "UINavigationItem"; title = "Weitere Details"; ObjectID = "9B7-yo-36a"; */
+"9B7-yo-36a.title" = "Weitere Details";
+
+/* Class = "UIButton"; configuration.title = "test button"; ObjectID = "A6s-ap-cD5"; */
+"A6s-ap-cD5.configuration.title" = "test button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "A6s-ap-cD5"; */
+"A6s-ap-cD5.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Beschädigte Funktion? "; ObjectID = "Awf-R3-Leq"; */
+"Awf-R3-Leq.title" = "damaged functions";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Login";
+
+/* Class = "UITextField"; placeholder = "Vorname"; ObjectID = "ClT-2u-zls"; */
+"ClT-2u-zls.placeholder" = "First name";
+
+/* Class = "UITextField"; placeholder = "KFZ- Kennzeichen"; ObjectID = "Fdk-eu-oj9"; */
+"Fdk-eu-oj9.placeholder" = "License Plate";
+
+/* Class = "UIBarButtonItem"; title = "Zurück"; ObjectID = "Hxm-7T-sIo"; */
+"Hxm-7T-sIo.title" = "Back";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "Jm7-dG-GKp"; */
+"Jm7-dG-GKp.title" = "Login";
+
+/* Class = "UINavigationItem"; title = "Sind sie sich Sicher?"; ObjectID = "JtK-Zp-AqP"; */
+"JtK-Zp-AqP.title" = "Are you sure?";
+
+/* Class = "UITextField"; placeholder = "Benutzername"; ObjectID = "LUn-Xd-uQr"; */
+"LUn-Xd-uQr.placeholder" = "Username";
+
+/* Class = "UIBarButtonItem"; title = "Schließen"; ObjectID = "Oen-Bn-Imc"; */
+"Oen-Bn-Imc.title" = "Close";
+
+/* Class = "UINavigationItem"; title = "Beschädigtes Gerät?"; ObjectID = "RsP-Wu-P97"; */
+"RsP-Wu-P97.title" = "Damaged devices?";
+
+/* Class = "UINavigationItem"; title = "Weitere Details "; ObjectID = "TBP-Ib-UiF"; */
+"TBP-Ib-UiF.title" = "Weitere Details ";
+
+/* Class = "UITextField"; placeholder = "Passwort"; ObjectID = "Tdx-70-KyQ"; */
+"Tdx-70-KyQ.placeholder" = "Password";
+
+/* Class = "UIBarButtonItem"; title = "Zurück"; ObjectID = "UGB-Kd-ZfT"; */
+"UGB-Kd-ZfT.title" = "Back";
+
+/* Class = "UIBarButtonItem"; title = "Zurück"; ObjectID = "UGk-1O-i0j"; */
+"UGk-1O-i0j.title" = "Back";
+
+/* Class = "UILabel"; text = "Organisation"; ObjectID = "XoC-XE-nB7"; */
+"XoC-XE-nB7.text" = "Organisation";
+
+/* Class = "UIBarButtonItem"; title = "Zurück"; ObjectID = "ZQB-Aa-hU8"; */
+"ZQB-Aa-hU8.title" = "Back";
+
+/* Class = "UISearchBar"; placeholder = "Organisations suche"; ObjectID = "Zco-Ik-mos"; */
+"Zco-Ik-mos.placeholder" = "Search for Organisation";
+
+/* Class = "UISearchBar"; Zco-Ik-mos.scopeButtonTitles[0] = "Title"; ObjectID = "Zco-Ik-mos"; */
+"Zco-Ik-mos.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; Zco-Ik-mos.scopeButtonTitles[1] = "Title"; ObjectID = "Zco-Ik-mos"; */
+"Zco-Ik-mos.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UITextField"; placeholder = "Rufname"; ObjectID = "cCk-rU-PBg"; */
+"cCk-rU-PBg.placeholder" = "Nick name";
+
+/* Class = "UILabel"; text = "Hier stehen die meta daten des qr codes"; ObjectID = "ccP-dx-fsO"; */
+"ccP-dx-fsO.text" = "QR- Code Metadata";
+
+/* Class = "UINavigationItem"; title = "Sturzhöhe?"; ObjectID = "clM-9R-cAi"; */
+"clM-9R-cAi.title" = "Fall height?";
+
+/* Class = "UITableViewSection"; headerTitle = "User Daten"; ObjectID = "czK-P9-3qZ"; */
+"czK-P9-3qZ.headerTitle" = "User Data";
+
+/* Class = "UITableViewSection"; headerTitle = "Schadensmeldung"; ObjectID = "eS5-5b-4tK"; */
+"eS5-5b-4tK.headerTitle" = "Damage Info";
+
+/* Class = "UIBarButtonItem"; title = "Weiter"; ObjectID = "f6a-9t-qB7"; */
+"f6a-9t-qB7.title" = "Go";
+
+/* Class = "UITextField"; placeholder = "Nachname"; ObjectID = "fMd-dT-guU"; */
+"fMd-dT-guU.placeholder" = "Second name";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "ggV-ah-v4m"; */
+"ggV-ah-v4m.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ggV-ah-v4m"; */
+"ggV-ah-v4m.normalTitle" = "Button";
+
+/* Class = "UITableViewController"; title = "User Data"; ObjectID = "iYu-cn-ofs"; */
+"iYu-cn-ofs.title" = "User Data";
+
+/* Class = "UILabel"; text = "Erfassen"; ObjectID = "icQ-2t-pGv"; */
+"icQ-2t-pGv.text" = "Erfassen";
+
+/* Class = "UINavigationItem"; title = " \"Login\" QR-Code"; ObjectID = "it6-87-WRm"; */
+"it6-87-WRm.title" = " \"Login\" QR-Code";
+
+/* Class = "UILabel"; text = "hier stehen die meta daten des qr codes"; ObjectID = "lnD-vh-B4a"; */
+"lnD-vh-B4a.text" = "QR- Code Metadata";
+
+/* Class = "UIViewController"; title = "QR-Code Scanner"; ObjectID = "mtX-aZ-tZK"; */
+"mtX-aZ-tZK.title" = "QR-Code Scanner";
+
+/* Class = "UIBarButtonItem"; title = "Zurück"; ObjectID = "oKt-O5-6G7"; */
+"oKt-O5-6G7.title" = "Back";
+
+/* Class = "UIBarButtonItem"; title = "Abbruch"; ObjectID = "oW8-11-Dv7"; */
+"oW8-11-Dv7.title" = "Cancel";
+
+/* Class = "UIBarButtonItem"; title = "Senden"; ObjectID = "qRv-FP-L3l"; */
+"qRv-FP-L3l.title" = "Send";
+
+/* Class = "UINavigationItem"; title = "Vorhandener Schaden?"; ObjectID = "siO-ga-gva"; */
+"siO-ga-gva.title" = "Current Damage?";
+
+/* Class = "UIBarButtonItem"; title = "Bestätigen"; ObjectID = "ue8-At-xDT"; */
+"ue8-At-xDT.title" = "Apply";
+
+/* Class = "UIBarButtonItem"; title = "Speichern"; ObjectID = "w50-Gn-JJE"; */
+"w50-Gn-JJE.title" = "Save";

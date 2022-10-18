@@ -1,0 +1,107 @@
+{
+  "colors" : [
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.400",
+          "green" : "0.339",
+          "red" : "0.296"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.400",
+          "green" : "0.338",
+          "red" : "0.295"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.996",
+          "green" : "0.961",
+          "red" : "0.882"
+        }
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.584",
+          "green" : "0.494",
+          "red" : "0.431"
+        }
+      },
+      "idiom" : "ipad"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.584",
+          "green" : "0.494",
+          "red" : "0.431"
+        }
+      },
+      "idiom" : "ipad"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "srgb",
+        "components" : {
+          "alpha" : "1.000",
+          "blue" : "0.996",
+          "green" : "0.961",
+          "red" : "0.882"
+        }
+      },
+      "idiom" : "ipad"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}
